@@ -1,7 +1,7 @@
 import os
 
 import pybind11
-from distutils.core import setup, Extension
+from setuptools import setup, Extension
 
 
 DIR_NAME = os.path.abspath(os.path.dirname(__file__))
