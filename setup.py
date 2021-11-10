@@ -26,7 +26,7 @@ ext_modules = [
 setup(
     name='cpp_package_for_python',
     version='0.0.1',
-    # url="https://github.com/judy2k/helloworld",
+    url="https://github.com/BogdanStupa/cpp_package_for_python",
     author='user',
     author_email='user@user.com',
     description='pybind11 extension',
@@ -34,5 +34,5 @@ setup(
     ext_modules=ext_modules,
     requires=['pybind11'],
     python_requires=">=3.7",
-    # install_requires=["wheel"],
+    install_requires=["wheel"],
 )
